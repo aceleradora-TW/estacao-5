@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String args[]){
 
-        System.out.println("oieeeeeeeeeeeeeeeeeeee");
+        System.out.println("oieeeeeeeeeeeeeee");
         Calculadora calc = new Calculadora();
         System.out.println(calc.soma(2, 5));
         System.out.println(calc. subtracao(4, 2));
