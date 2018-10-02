@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="portugues-brazil">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formularioCSS.css" type="text/css" media="screen">
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-wrapper">
+        <h1>HOSPEBEM</h1>
+
+        <img src="icone.jpg" class="imglogo"><span>Assistente social </span>
+    </div>
+</nav>
+<h2><u> Dados do paciente </u></h2>
+
+<form name="solicitacao_paciente">
+
+       <div class="nomePaciente">
+           <label>
+               <b>Nome completo:
+               </b>
+           </label>
+           <div>
+               <input type="text">
+           </div>
+       </div>
+
+    <div class="generoRadio">
+        <input type="radio" name="genero" value="F"><span><b>F</b></span>
+        <input type="radio" name="genero" value="M"><span><b>M</b></span>
+    </div>
+
+    <div class="dataNascimento">
+        <label><b>Data de nascimento:</b>
+        </label>
+
+        <div class="Dnascimento">
+            <input type="date">
+        </div>
+    </div>
+
+    <div class="operacaoRadio">
+        <input type="radio" name="operacao" value="pre"><span><b>Pré-transplante</b></span>
+        <input type="radio" name="operacao" value="pos"><span><b>Pós-transplante</b></span>
+    </div>
+
+    <div class="dataTransplante">
+        <label><b>Data do transplante:</b>
+        </label>
+
+        <div class="Dtransplante">
+            <input type="date">
+        </div>
+    </div>
+
+    <div class="necessidadeEspecial">
+        <label><b>Necessidade especial:</b>
+        </label>
+
+        <div class="SelectNecessidadeEspecial">
+            <select name="NecessidadeEspecial">
+                <option value="C">cadeirante</option>
+                <option value="O">outro</option>
+                <option value="n">to de boas</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="orgao">
+        <label><b>Orgão</b>
+        </label>
+
+        <div class="SelectOrgao">
+            <select name="orguinho">
+                <option value="C">coração</option>
+                <option value="p">pulmão</option>
+                <option value="t">tecidos</option>
+            </select>
+        </div>
+
+    </div>
+
+    <hr class="linhaTracejada">
+
+    <h2><u> Endereço</u></h2>
+
+        <div class="rua">
+            <label>
+                <b>Rua:
+                </b>
+            </label>
+            <div>
+                <input type="text" >
+            </div>
+        </div>
+    <div class="number">
+        <label>
+            <b>N°:</b>
+        </label>
+        <div>
+            <input type="text" size="2">
+        </div>
+    </div>
+
+            <div class="uf">
+                <label>
+                    <b>uf</b>
+                </label>
+                <div>
+                    <input type="text" size="2">
+                </div>
+            </div>
+
+            <div class="bairro">
+                <label>
+                    <b>Bairro:
+                    </b>
+                </label>
+                <div>
+                    <input type="text" >
+                </div>
+            </div>
+
+            <div class="Cidade">
+                    <label>
+                        <b>cidade:
+                        </b>
+                    </label>
+                    <div>
+                        <input type="text" >
+                    </div>
+            </div>
+                    <hr class="linhaTracejada">
+
+            <h2><u> Dados acompanhante</u></h2>
+
+            <div class="acompanhante1">
+                <p><b>Acompanhante 1</b></p>
+                        <label>
+                            <b>Nome completo:
+                            </b>
+                        </label>
+                        <div>
+                            <input type="text" >
+                        </div>
+            </div>
+    <div class="generoRadio">
+        <input type="radio" name="genero2" value="F"><span><b>F</b></span>
+        <input type="radio" name="genero2" value="M"><span><b>M</b></span>
+    </div>
+
+    <div class="dataNascimento1">
+        <label><b>Data de nascimento:</b>
+        </label>
+
+        <div class="Dnascimento1">
+            <input type="date">
+        </div>
+    </div>
+
+
+    <div class="acompanhante1">
+        <p><b>Acompanhante 2</b></p>
+        <label>
+            <b>Nome completo:
+            </b>
+        </label>
+        <div>
+            <input type="text" >
+        </div>
+    </div>
+    <div class="generoRadio">
+        <input type="radio" name="genero2" value="F"><span><b>F</b></span>
+        <input type="radio" name="genero2" value="M"><span><b>M</b></span>
+    </div>
+    
+    <div class="dataNascimento1">
+        <label><b>Data de nascimento:</b>
+        </label>
+
+        <div class="Dnascimento1">
+            <input type="date">
+        </div>
+    </div>
+    <div class="adivinhadobotao">
+    <input class="classzinhadobotao" type="button" name="botao" value="Enviar solicitação">
+    </div>
+
+
+</form>
+
+</body>
+</html>
